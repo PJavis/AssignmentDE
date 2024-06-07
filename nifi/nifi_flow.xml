@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<template>
+    <description>Kafka to HDFS Flow</description>
+    <name>KafkaToHDFSFlow</name>
+    <controllerServiceReferences/>
+    <groupId>group-id</groupId>
+    <groupName>Flow Group</groupName>
+    <processors>
+        <!-- ConsumeKafka_2_0 Processor -->
+        <processor>
+            <id>ConsumeKafkaID</id>
+            <name>ConsumeKafka_2_0</name>
+            <config>
+                <property>
+                    <name>Topic Name</name>
+                    <value>vdt2024</value>
+                </property>
+                <property>
+                    <name>Kafka Brokers</name>
+                    <value>localhost:9092,localhost:9094</value>
+                </property>
+                <property>
+                    <name>Group ID</name>
+                    <value>nifi_group</value>
+                </property>
+                <property>
+                    <name>Auto Offset Reset</name>
+                    <value>earliest</value>
+                </property>
+            </config>
+        </processor>
+
+        <!-- ConvertRecord Processor Configuration here -->
+        <processor>
+            <id>ConvertRecordID</id>
+            <name>ConvertRecord</name>
+            <config>
+                <property>
+                    <name>Record Reader</name>
+                    <value>CSVReader</value>
+                </property>
+                <property>
+                    <name>Record Writer</name>
+                    <value>ParquetRecordSetWriter</value>
+                </property>
+            </config>
+        </processor>
+
+        <!-- PutHDFS Processor -->
+        <processor>
+            <id>PutHDFSID</id>
+            <name>PutHDFS</name>
+            <config>
+                <property>
+                    <name>Directory</name>
+                    <value>/raw_zone/fact/activity</value>
+                </property>
+                <!-- Other HDFS configuration properties here -->
+            </config>
+        </processor>
+    </processors>
+    <connections>
+        <connection>
+            <sourceId>ConsumeKafkaID</sourceId>
+            <destinationId>ConvertRecordID</destinationId>
+        </connection>
+        <connection>
+            <sourceId>ConvertRecordID</sourceId>
+            <destinationId>PutHDFSID</destinationId>
+        </connection>
+    </connections>
+    <!-- Define CSVReader and ParquetRecordSetWriter controller services here -->
+    <controllerServices>
+        <controllerService>
+            <id>CSVReaderID</id>
+            <name>CSVReader</name>
+            <!-- CSVReader properties here -->
+        </controllerService>
+        <controllerService>
+            <id>ParquetRecordSetWriterID</id>
+            <name>ParquetRecordSetWriter</name>
+            <!-- ParquetRecordSetWriter properties here -->
+        </controllerService>
+    </controllerServices>
+</template>

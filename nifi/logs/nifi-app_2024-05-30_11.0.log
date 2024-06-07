@@ -1,0 +1,10 @@
+2024-05-30 11:59:50,776 INFO [main] org.apache.nifi.NiFi Launching NiFi...
+2024-05-30 11:59:51,303 INFO [main] o.a.n.p.AbstractBootstrapPropertiesLoader Determined default application properties path to be '/opt/nifi/nifi-current/./conf/nifi.properties'
+2024-05-30 11:59:51,308 INFO [main] o.a.nifi.properties.NiFiPropertiesLoader Loaded 202 properties from /opt/nifi/nifi-current/./conf/nifi.properties
+2024-05-30 11:59:51,319 INFO [main] org.apache.nifi.NiFi Loaded 202 properties
+2024-05-30 11:59:51,333 INFO [main] org.apache.nifi.BootstrapListener Started Bootstrap Listener, Listening for incoming requests on port 38875
+2024-05-30 11:59:51,361 INFO [main] org.apache.nifi.BootstrapListener Successfully initiated communication with Bootstrap
+2024-05-30 11:59:51,390 INFO [main] org.apache.nifi.nar.NarUnpacker Expanding 104 NAR files with all processors...
+2024-05-30 11:59:56,073 INFO [pool-2-thread-2] org.apache.nifi.BootstrapListener Received SHUTDOWN request from Bootstrap
+2024-05-30 11:59:56,075 INFO [pool-2-thread-2] org.apache.nifi.NiFi Initiating shutdown of Jetty web server...
+2024-05-30 11:59:56,076 INFO [pool-2-thread-2] org.apache.nifi.NiFi Jetty web server shutdown completed (nicely or otherwise).

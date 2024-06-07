@@ -1,0 +1,1034 @@
+2024-06-03 16:02:58,060 INFO [NiFi Web Server-92] org.apache.nifi.web.filter.RequestLogger Attempting request for (<no user found>) POST http://localhost:8091/nifi-api/access/kerberos (source ip: 172.18.0.1)
+2024-06-03 16:02:58,145 INFO [NiFi Web Server-41] org.apache.nifi.web.filter.RequestLogger Attempting request for (<no user found>) POST http://localhost:8091/nifi-api/access/oidc/exchange (source ip: 172.18.0.1)
+2024-06-03 16:02:58,153 INFO [NiFi Web Server-92] org.apache.nifi.web.filter.RequestLogger Attempting request for (<no user found>) POST http://localhost:8091/nifi-api/access/saml/login/exchange (source ip: 172.18.0.1)
+2024-06-03 16:02:58,178 INFO [NiFi Web Server-41] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:02:58,181 INFO [NiFi Web Server-41] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:02:58,190 INFO [NiFi Web Server-41] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:02:58,254 INFO [NiFi Web Server-41] o.a.n.w.a.c.IllegalClusterStateExceptionMapper org.apache.nifi.cluster.manager.exception.IllegalClusterStateException: The Flow Controller is initializing the Data Flow.. Returning Conflict response.
+2024-06-03 16:04:07,325 INFO [NiFi Web Server-92] org.apache.nifi.web.filter.RequestLogger Attempting request for (<no user found>) POST http://localhost:8091/nifi-api/access/kerberos (source ip: 172.18.0.1)
+2024-06-03 16:04:07,342 INFO [NiFi Web Server-93] org.apache.nifi.web.filter.RequestLogger Attempting request for (<no user found>) POST http://localhost:8091/nifi-api/access/oidc/exchange (source ip: 172.18.0.1)
+2024-06-03 16:04:07,349 INFO [NiFi Web Server-92] org.apache.nifi.web.filter.RequestLogger Attempting request for (<no user found>) POST http://localhost:8091/nifi-api/access/saml/login/exchange (source ip: 172.18.0.1)
+2024-06-03 16:04:07,355 INFO [NiFi Web Server-93] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:04:07,355 INFO [NiFi Web Server-93] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:04:07,356 INFO [NiFi Web Server-93] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:04:07,424 INFO [NiFi Web Server-38] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:04:07,424 INFO [NiFi Web Server-38] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:04:07,425 INFO [NiFi Web Server-38] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:04:07,492 INFO [NiFi Web Server-92] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/client-id (source ip: 172.18.0.1)
+2024-06-03 16:04:07,492 INFO [NiFi Web Server-92] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:04:07,493 INFO [NiFi Web Server-41] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/config (source ip: 172.18.0.1)
+2024-06-03 16:04:07,493 INFO [NiFi Web Server-41] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:04:07,493 INFO [NiFi Web Server-92] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/client-id (source ip: 172.18.0.1)
+2024-06-03 16:04:07,493 INFO [NiFi Web Server-41] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/config (source ip: 172.18.0.1)
+2024-06-03 16:04:07,498 INFO [NiFi Web Server-32] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/config (source ip: 172.18.0.6)
+2024-06-03 16:04:07,499 INFO [NiFi Web Server-32] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:04:07,499 INFO [NiFi Web Server-32] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/config (source ip: 172.18.0.6)
+2024-06-03 16:04:07,524 INFO [NiFi Web Server-31] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/banners (source ip: 172.18.0.1)
+2024-06-03 16:04:07,524 INFO [NiFi Web Server-31] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:04:07,525 INFO [NiFi Web Server-31] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/banners (source ip: 172.18.0.1)
+2024-06-03 16:04:07,541 INFO [NiFi Web Server-41] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/processor-types (source ip: 172.18.0.1)
+2024-06-03 16:04:07,542 INFO [NiFi Web Server-41] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:04:07,542 INFO [NiFi Web Server-41] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/processor-types (source ip: 172.18.0.1)
+2024-06-03 16:04:07,542 INFO [NiFi Web Server-93] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/about (source ip: 172.18.0.1)
+2024-06-03 16:04:07,543 INFO [NiFi Web Server-93] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:04:07,543 INFO [NiFi Web Server-93] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/about (source ip: 172.18.0.1)
+2024-06-03 16:04:07,549 INFO [NiFi Web Server-92] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/processor-types (source ip: 172.18.0.6)
+2024-06-03 16:04:07,550 INFO [NiFi Web Server-92] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:04:07,550 INFO [NiFi Web Server-92] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/processor-types (source ip: 172.18.0.6)
+2024-06-03 16:04:07,555 INFO [NiFi Web Server-40] org.apache.nifi.web.filter.RequestLogger Attempting request for (<no user found>) GET http://localhost:8091/nifi-api/access/config (source ip: 172.18.0.1)
+2024-06-03 16:04:07,571 INFO [NiFi Web Server-97] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/controller-service-types (source ip: 172.18.0.1)
+2024-06-03 16:04:07,572 INFO [NiFi Web Server-97] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:04:07,572 INFO [NiFi Web Server-97] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/controller-service-types (source ip: 172.18.0.1)
+2024-06-03 16:04:07,579 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/controller-service-types (source ip: 172.18.0.6)
+2024-06-03 16:04:07,579 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:04:07,580 INFO [NiFi Web Server-29] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/controller-service-types (source ip: 172.18.0.6)
+2024-06-03 16:04:07,583 INFO [NiFi Web Server-32] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/reporting-task-types (source ip: 172.18.0.1)
+2024-06-03 16:04:07,584 INFO [NiFi Web Server-32] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:04:07,585 INFO [NiFi Web Server-32] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/reporting-task-types (source ip: 172.18.0.1)
+2024-06-03 16:04:07,590 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/reporting-task-types (source ip: 172.18.0.6)
+2024-06-03 16:04:07,590 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:04:07,591 INFO [NiFi Web Server-25] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/reporting-task-types (source ip: 172.18.0.6)
+2024-06-03 16:04:07,680 INFO [NiFi Web Server-31] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/prioritizers (source ip: 172.18.0.1)
+2024-06-03 16:04:07,681 INFO [NiFi Web Server-31] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:04:07,681 INFO [NiFi Web Server-31] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/prioritizers (source ip: 172.18.0.1)
+2024-06-03 16:04:07,685 INFO [NiFi Web Server-35] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/prioritizers (source ip: 172.18.0.6)
+2024-06-03 16:04:07,685 INFO [NiFi Web Server-35] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:04:07,687 INFO [NiFi Web Server-35] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/prioritizers (source ip: 172.18.0.6)
+2024-06-03 16:04:07,734 INFO [NiFi Web Server-97] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:04:07,734 INFO [NiFi Web Server-99] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:04:07,734 INFO [NiFi Web Server-41] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/process-groups/root (source ip: 172.18.0.1)
+2024-06-03 16:04:07,734 INFO [NiFi Web Server-97] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:04:07,734 INFO [NiFi Web Server-99] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:04:07,735 INFO [NiFi Web Server-41] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:04:07,735 INFO [NiFi Web Server-97] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:04:07,735 INFO [NiFi Web Server-99] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:04:07,735 INFO [NiFi Web Server-41] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/process-groups/root (source ip: 172.18.0.1)
+2024-06-03 16:04:07,736 INFO [NiFi Web Server-34] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:04:07,736 INFO [NiFi Web Server-39] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:04:07,736 INFO [NiFi Web Server-34] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:04:07,736 INFO [NiFi Web Server-39] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:04:07,737 INFO [NiFi Web Server-34] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:04:07,737 INFO [NiFi Web Server-39] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:04:07,741 INFO [NiFi Web Server-93] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:04:07,741 INFO [NiFi Web Server-32] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:04:07,742 INFO [NiFi Web Server-32] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:04:07,742 INFO [NiFi Web Server-93] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:04:07,743 INFO [NiFi Web Server-32] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:04:07,743 INFO [NiFi Web Server-93] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:04:07,744 INFO [NiFi Web Server-33] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/process-groups/root (source ip: 172.18.0.6)
+2024-06-03 16:04:07,744 INFO [NiFi Web Server-33] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:04:07,745 INFO [NiFi Web Server-33] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/process-groups/root (source ip: 172.18.0.6)
+2024-06-03 16:04:07,748 INFO [NiFi Web Server-40] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:04:07,748 INFO [NiFi Web Server-40] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:04:07,749 INFO [NiFi Web Server-40] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:04:23,356 INFO [NiFi Web Server-38] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:04:23,356 INFO [NiFi Web Server-39] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:04:23,356 INFO [NiFi Web Server-41] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:04:23,356 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:04:23,356 INFO [NiFi Web Server-38] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:04:23,357 INFO [NiFi Web Server-26] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:04:23,357 INFO [NiFi Web Server-39] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:04:23,357 INFO [NiFi Web Server-41] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:04:23,357 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:04:23,357 INFO [NiFi Web Server-26] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:04:23,357 INFO [NiFi Web Server-38] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:04:23,357 INFO [NiFi Web Server-39] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:04:23,358 INFO [NiFi Web Server-41] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:04:23,358 INFO [NiFi Web Server-25] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:04:23,358 INFO [NiFi Web Server-26] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:04:23,362 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:04:23,362 INFO [NiFi Web Server-35] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:04:23,362 INFO [NiFi Web Server-30] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:04:23,362 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:04:23,363 INFO [NiFi Web Server-40] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:04:23,362 INFO [NiFi Web Server-35] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:04:23,363 INFO [NiFi Web Server-30] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:04:23,363 INFO [NiFi Web Server-40] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:04:23,363 INFO [NiFi Web Server-29] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:04:23,363 INFO [NiFi Web Server-35] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:04:23,363 INFO [NiFi Web Server-30] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:04:23,364 INFO [NiFi Web Server-40] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:04:54,368 INFO [NiFi Web Server-33] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:04:54,368 INFO [NiFi Web Server-26] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:04:54,368 INFO [NiFi Web Server-97] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:04:54,368 INFO [NiFi Web Server-33] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:04:54,369 INFO [NiFi Web Server-26] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:04:54,369 INFO [NiFi Web Server-97] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:04:54,370 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:04:54,370 INFO [NiFi Web Server-97] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:04:54,370 INFO [NiFi Web Server-41] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:04:54,370 INFO [NiFi Web Server-33] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:04:54,370 INFO [NiFi Web Server-26] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:04:54,370 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:04:54,370 INFO [NiFi Web Server-41] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:04:54,371 INFO [NiFi Web Server-25] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:04:54,371 INFO [NiFi Web Server-41] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:04:54,385 INFO [NiFi Web Server-92] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:04:54,385 INFO [NiFi Web Server-92] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:04:54,386 INFO [NiFi Web Server-92] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:04:54,389 INFO [NiFi Web Server-99] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:04:54,389 INFO [NiFi Web Server-38] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:04:54,389 INFO [NiFi Web Server-39] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:04:54,389 INFO [NiFi Web Server-99] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:04:54,390 INFO [NiFi Web Server-38] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:04:54,390 INFO [NiFi Web Server-39] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:04:54,390 INFO [NiFi Web Server-99] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:04:54,390 INFO [NiFi Web Server-38] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:04:54,390 INFO [NiFi Web Server-39] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:05:25,357 INFO [NiFi Web Server-30] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:05:25,357 INFO [NiFi Web Server-30] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:05:25,357 INFO [NiFi Web Server-30] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:05:25,361 INFO [NiFi Web Server-39] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:05:25,361 INFO [NiFi Web Server-41] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:05:25,361 INFO [NiFi Web Server-35] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:05:25,361 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:05:25,361 INFO [NiFi Web Server-39] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:05:25,361 INFO [NiFi Web Server-97] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:05:25,361 INFO [NiFi Web Server-41] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:05:25,361 INFO [NiFi Web Server-35] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:05:25,361 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:05:25,361 INFO [NiFi Web Server-97] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:05:25,362 INFO [NiFi Web Server-39] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:05:25,362 INFO [NiFi Web Server-41] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:05:25,362 INFO [NiFi Web Server-35] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:05:25,362 INFO [NiFi Web Server-25] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:05:25,362 INFO [NiFi Web Server-97] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:05:25,367 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:05:25,367 INFO [NiFi Web Server-32] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:05:25,367 INFO [NiFi Web Server-148] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:05:25,369 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:05:25,369 INFO [NiFi Web Server-32] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:05:25,370 INFO [NiFi Web Server-148] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:05:25,370 INFO [NiFi Web Server-32] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:05:25,370 INFO [NiFi Web Server-29] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:05:25,370 INFO [NiFi Web Server-148] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:05:56,364 INFO [NiFi Web Server-33] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:05:56,364 INFO [NiFi Web Server-99] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:05:56,364 INFO [NiFi Web Server-26] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:05:56,364 INFO [NiFi Web Server-35] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:05:56,364 INFO [NiFi Web Server-33] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:05:56,364 INFO [NiFi Web Server-99] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:05:56,364 INFO [NiFi Web Server-26] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:05:56,364 INFO [NiFi Web Server-32] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:05:56,364 INFO [NiFi Web Server-35] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:05:56,365 INFO [NiFi Web Server-33] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:05:56,365 INFO [NiFi Web Server-99] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:05:56,365 INFO [NiFi Web Server-26] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:05:56,365 INFO [NiFi Web Server-32] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:05:56,365 INFO [NiFi Web Server-35] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:05:56,366 INFO [NiFi Web Server-32] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:05:56,370 INFO [NiFi Web Server-41] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:05:56,370 INFO [NiFi Web Server-38] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:05:56,370 INFO [NiFi Web Server-31] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:05:56,370 INFO [NiFi Web Server-40] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:05:56,370 INFO [NiFi Web Server-41] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:05:56,370 INFO [NiFi Web Server-38] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:05:56,371 INFO [NiFi Web Server-31] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:05:56,371 INFO [NiFi Web Server-40] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:05:56,371 INFO [NiFi Web Server-41] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:05:56,371 INFO [NiFi Web Server-38] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:05:56,371 INFO [NiFi Web Server-31] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:05:56,371 INFO [NiFi Web Server-40] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:06:27,355 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:06:27,355 INFO [NiFi Web Server-97] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:06:27,355 INFO [NiFi Web Server-39] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:06:27,355 INFO [NiFi Web Server-26] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:06:27,355 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:06:27,355 INFO [NiFi Web Server-33] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:06:27,355 INFO [NiFi Web Server-97] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:06:27,356 INFO [NiFi Web Server-39] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:06:27,356 INFO [NiFi Web Server-26] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:06:27,356 INFO [NiFi Web Server-33] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:06:27,356 INFO [NiFi Web Server-29] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:06:27,356 INFO [NiFi Web Server-97] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:06:27,356 INFO [NiFi Web Server-39] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:06:27,356 INFO [NiFi Web Server-26] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:06:27,357 INFO [NiFi Web Server-33] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:06:27,361 INFO [NiFi Web Server-92] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:06:27,361 INFO [NiFi Web Server-30] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:06:27,361 INFO [NiFi Web Server-34] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:06:27,361 INFO [NiFi Web Server-92] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:06:27,361 INFO [NiFi Web Server-30] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:06:27,361 INFO [NiFi Web Server-34] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:06:27,361 INFO [NiFi Web Server-35] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:06:27,362 INFO [NiFi Web Server-92] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:06:27,362 INFO [NiFi Web Server-30] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:06:27,362 INFO [NiFi Web Server-34] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:06:27,362 INFO [NiFi Web Server-35] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:06:27,363 INFO [NiFi Web Server-35] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:06:58,355 INFO [NiFi Web Server-40] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:06:58,355 INFO [NiFi Web Server-99] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:06:58,356 INFO [NiFi Web Server-40] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:06:58,356 INFO [NiFi Web Server-99] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:06:58,356 INFO [NiFi Web Server-40] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:06:58,356 INFO [NiFi Web Server-99] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:06:58,361 INFO [NiFi Web Server-39] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:06:58,361 INFO [NiFi Web Server-33] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:06:58,361 INFO [NiFi Web Server-39] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:06:58,361 INFO [NiFi Web Server-33] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:06:58,362 INFO [NiFi Web Server-33] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:06:58,362 INFO [NiFi Web Server-39] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:06:58,365 INFO [NiFi Web Server-31] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:06:58,366 INFO [NiFi Web Server-31] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:06:58,366 INFO [NiFi Web Server-97] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:06:58,367 INFO [NiFi Web Server-26] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:06:58,367 INFO [NiFi Web Server-31] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:06:58,367 INFO [NiFi Web Server-97] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:06:58,367 INFO [NiFi Web Server-26] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:06:58,367 INFO [NiFi Web Server-97] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:06:58,367 INFO [NiFi Web Server-26] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:06:58,372 INFO [NiFi Web Server-38] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:06:58,372 INFO [NiFi Web Server-38] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:06:58,372 INFO [NiFi Web Server-93] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:06:58,372 INFO [NiFi Web Server-93] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:06:58,372 INFO [NiFi Web Server-38] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:06:58,373 INFO [NiFi Web Server-93] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:07:29,357 INFO [NiFi Web Server-40] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:07:29,357 INFO [NiFi Web Server-38] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:07:29,357 INFO [NiFi Web Server-35] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:07:29,357 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:07:29,357 INFO [NiFi Web Server-40] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:07:29,357 INFO [NiFi Web Server-97] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:07:29,357 INFO [NiFi Web Server-38] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:07:29,357 INFO [NiFi Web Server-35] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:07:29,357 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:07:29,358 INFO [NiFi Web Server-97] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:07:29,358 INFO [NiFi Web Server-40] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:07:29,358 INFO [NiFi Web Server-97] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:07:29,358 INFO [NiFi Web Server-38] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:07:29,358 INFO [NiFi Web Server-35] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:07:29,358 INFO [NiFi Web Server-29] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:07:29,367 INFO [NiFi Web Server-31] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:07:29,368 INFO [NiFi Web Server-31] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:07:29,368 INFO [NiFi Web Server-149] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:07:29,369 INFO [NiFi Web Server-31] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:07:29,369 INFO [NiFi Web Server-149] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:07:29,369 INFO [NiFi Web Server-149] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:07:29,400 INFO [NiFi Web Server-26] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:07:29,400 INFO [NiFi Web Server-34] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:07:29,400 INFO [NiFi Web Server-26] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:07:29,401 INFO [NiFi Web Server-34] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:07:29,401 INFO [NiFi Web Server-26] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:07:29,401 INFO [NiFi Web Server-34] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:08:00,370 INFO [NiFi Web Server-148] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:08:00,370 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:08:00,370 INFO [NiFi Web Server-39] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:08:00,370 INFO [NiFi Web Server-41] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:08:00,370 INFO [NiFi Web Server-38] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:08:00,371 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:08:00,371 INFO [NiFi Web Server-148] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:08:00,372 INFO [NiFi Web Server-39] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:08:00,372 INFO [NiFi Web Server-41] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:08:00,373 INFO [NiFi Web Server-39] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:08:00,372 INFO [NiFi Web Server-38] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:08:00,373 INFO [NiFi Web Server-148] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:08:00,373 INFO [NiFi Web Server-25] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:08:00,373 INFO [NiFi Web Server-41] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:08:00,374 INFO [NiFi Web Server-38] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:08:00,379 INFO [NiFi Web Server-26] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:08:00,381 INFO [NiFi Web Server-26] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:08:00,384 INFO [NiFi Web Server-99] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:08:00,384 INFO [NiFi Web Server-26] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:08:00,384 INFO [NiFi Web Server-99] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:08:00,390 INFO [NiFi Web Server-99] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:08:00,391 INFO [NiFi Web Server-39] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:08:00,392 INFO [NiFi Web Server-39] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:08:00,394 INFO [NiFi Web Server-39] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:08:00,395 INFO [NiFi Web Server-40] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:08:00,396 INFO [NiFi Web Server-40] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:08:00,396 INFO [NiFi Web Server-40] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:08:31,359 INFO [NiFi Web Server-35] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:08:31,359 INFO [NiFi Web Server-34] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:08:31,359 INFO [NiFi Web Server-31] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:08:31,359 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:08:31,359 INFO [NiFi Web Server-33] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:08:31,359 INFO [NiFi Web Server-35] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:08:31,359 INFO [NiFi Web Server-34] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:08:31,360 INFO [NiFi Web Server-31] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:08:31,360 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:08:31,360 INFO [NiFi Web Server-33] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:08:31,360 INFO [NiFi Web Server-35] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:08:31,360 INFO [NiFi Web Server-34] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:08:31,360 INFO [NiFi Web Server-31] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:08:31,360 INFO [NiFi Web Server-29] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:08:31,360 INFO [NiFi Web Server-33] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:08:31,363 INFO [NiFi Web Server-26] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:08:31,363 INFO [NiFi Web Server-148] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:08:31,363 INFO [NiFi Web Server-97] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:08:31,371 INFO [NiFi Web Server-30] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:08:31,364 INFO [NiFi Web Server-26] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:08:31,364 INFO [NiFi Web Server-148] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:08:31,371 INFO [NiFi Web Server-97] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:08:31,371 INFO [NiFi Web Server-30] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:08:31,372 INFO [NiFi Web Server-97] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:08:31,371 INFO [NiFi Web Server-26] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:08:31,371 INFO [NiFi Web Server-148] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:08:31,372 INFO [NiFi Web Server-30] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:08:51,106 INFO [NiFi Web Server-34] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) POST http://localhost:8091/nifi-api/process-groups/ded6db0f-018f-1000-7c46-525efc61d336/processors (source ip: 172.18.0.1)
+2024-06-03 16:08:51,106 INFO [NiFi Web Server-34] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:08:51,107 INFO [NiFi Web Server-34] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) POST http://localhost:8091/nifi-api/process-groups/ded6db0f-018f-1000-7c46-525efc61d336/processors (source ip: 172.18.0.1)
+2024-06-03 16:08:51,155 INFO [NiFi Web Server-39] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) POST http://mynifi:8080/nifi-api/process-groups/ded6db0f-018f-1000-7c46-525efc61d336/processors (source ip: 172.18.0.6)
+2024-06-03 16:08:51,156 INFO [NiFi Web Server-39] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:08:51,156 INFO [NiFi Web Server-39] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) POST http://mynifi:8080/nifi-api/process-groups/ded6db0f-018f-1000-7c46-525efc61d336/processors (source ip: 172.18.0.6)
+2024-06-03 16:08:51,188 INFO [NiFi Web Server-33] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) POST http://mynifi:8080/nifi-api/process-groups/ded6db0f-018f-1000-7c46-525efc61d336/processors (source ip: 172.18.0.6)
+2024-06-03 16:08:51,189 INFO [NiFi Web Server-33] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:08:51,189 INFO [NiFi Web Server-33] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) POST http://mynifi:8080/nifi-api/process-groups/ded6db0f-018f-1000-7c46-525efc61d336/processors (source ip: 172.18.0.6)
+2024-06-03 16:09:01,398 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:09:01,398 INFO [NiFi Web Server-40] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:09:01,398 INFO [NiFi Web Server-38] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:09:01,398 INFO [NiFi Web Server-41] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:09:01,398 INFO [NiFi Web Server-39] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:09:01,398 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:09:01,399 INFO [NiFi Web Server-40] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:09:01,399 INFO [NiFi Web Server-38] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:09:01,399 INFO [NiFi Web Server-41] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:09:01,399 INFO [NiFi Web Server-39] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:09:01,399 INFO [NiFi Web Server-25] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:09:01,399 INFO [NiFi Web Server-40] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:09:01,400 INFO [NiFi Web Server-38] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:09:01,400 INFO [NiFi Web Server-41] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:09:01,400 INFO [NiFi Web Server-39] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:09:01,404 INFO [NiFi Web Server-33] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:09:01,404 INFO [NiFi Web Server-33] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:09:01,405 INFO [NiFi Web Server-26] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:09:01,405 INFO [NiFi Web Server-99] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:09:01,405 INFO [NiFi Web Server-33] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:09:01,405 INFO [NiFi Web Server-26] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:09:01,406 INFO [NiFi Web Server-99] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:09:01,407 INFO [NiFi Web Server-26] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:09:01,407 INFO [NiFi Web Server-99] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:09:01,407 INFO [NiFi Web Server-92] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:09:01,409 INFO [NiFi Web Server-92] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:09:01,409 INFO [NiFi Web Server-92] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:09:02,921 INFO [NiFi Web Server-148] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/history/components/dedc4ec4-018f-1000-ffff-ffffade8f817 (source ip: 172.18.0.1)
+2024-06-03 16:09:02,921 INFO [NiFi Web Server-34] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/processors/dedc4ec4-018f-1000-ffff-ffffade8f817 (source ip: 172.18.0.1)
+2024-06-03 16:09:02,921 INFO [NiFi Web Server-148] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:09:02,921 INFO [NiFi Web Server-34] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:09:02,921 INFO [NiFi Web Server-148] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/history/components/dedc4ec4-018f-1000-ffff-ffffade8f817 (source ip: 172.18.0.1)
+2024-06-03 16:09:02,921 INFO [NiFi Web Server-34] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/processors/dedc4ec4-018f-1000-ffff-ffffade8f817 (source ip: 172.18.0.1)
+2024-06-03 16:09:02,924 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/processors/dedc4ec4-018f-1000-ffff-ffffade8f817 (source ip: 172.18.0.6)
+2024-06-03 16:09:02,925 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:09:02,925 INFO [NiFi Web Server-25] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/processors/dedc4ec4-018f-1000-ffff-ffffade8f817 (source ip: 172.18.0.6)
+2024-06-03 16:09:31,457 INFO [NiFi Web Server-35] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:09:31,457 INFO [NiFi Web Server-97] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:09:31,457 INFO [NiFi Web Server-31] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:09:31,457 INFO [NiFi Web Server-148] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:09:31,457 INFO [NiFi Web Server-33] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:09:31,458 INFO [NiFi Web Server-35] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:09:31,458 INFO [NiFi Web Server-97] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:09:31,458 INFO [NiFi Web Server-31] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:09:31,458 INFO [NiFi Web Server-148] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:09:31,458 INFO [NiFi Web Server-33] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:09:31,458 INFO [NiFi Web Server-35] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:09:31,458 INFO [NiFi Web Server-97] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:09:31,458 INFO [NiFi Web Server-31] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:09:31,459 INFO [NiFi Web Server-148] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:09:31,459 INFO [NiFi Web Server-33] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:09:31,463 INFO [NiFi Web Server-92] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:09:31,463 INFO [NiFi Web Server-40] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:09:31,463 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:09:31,463 INFO [NiFi Web Server-30] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:09:31,464 INFO [NiFi Web Server-40] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:09:31,464 INFO [NiFi Web Server-92] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:09:31,464 INFO [NiFi Web Server-30] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:09:31,465 INFO [NiFi Web Server-29] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:09:31,465 INFO [NiFi Web Server-30] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:09:31,465 INFO [NiFi Web Server-29] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:09:31,465 INFO [NiFi Web Server-40] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:09:31,465 INFO [NiFi Web Server-92] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:10:02,364 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:10:02,364 INFO [NiFi Web Server-34] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:10:02,364 INFO [NiFi Web Server-39] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:10:02,364 INFO [NiFi Web Server-99] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:10:02,364 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:10:02,364 INFO [NiFi Web Server-34] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:10:02,364 INFO [NiFi Web Server-39] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:10:02,364 INFO [NiFi Web Server-38] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:10:02,364 INFO [NiFi Web Server-99] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:10:02,365 INFO [NiFi Web Server-25] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:10:02,365 INFO [NiFi Web Server-99] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:10:02,365 INFO [NiFi Web Server-34] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:10:02,365 INFO [NiFi Web Server-39] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:10:02,365 INFO [NiFi Web Server-38] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:10:02,367 INFO [NiFi Web Server-38] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:10:02,369 INFO [NiFi Web Server-30] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:10:02,369 INFO [NiFi Web Server-41] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:10:02,370 INFO [NiFi Web Server-41] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:10:02,370 INFO [NiFi Web Server-92] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:10:02,370 INFO [NiFi Web Server-30] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:10:02,370 INFO [NiFi Web Server-92] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:10:02,370 INFO [NiFi Web Server-41] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:10:02,370 INFO [NiFi Web Server-26] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:10:02,370 INFO [NiFi Web Server-30] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:10:02,370 INFO [NiFi Web Server-92] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:10:02,370 INFO [NiFi Web Server-26] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:10:02,371 INFO [NiFi Web Server-26] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:10:33,358 INFO [NiFi Web Server-40] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:10:33,358 INFO [NiFi Web Server-40] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:10:33,358 INFO [NiFi Web Server-35] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:10:33,358 INFO [NiFi Web Server-33] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:10:33,359 INFO [NiFi Web Server-31] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:10:33,359 INFO [NiFi Web Server-148] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:10:33,359 INFO [NiFi Web Server-35] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:10:33,359 INFO [NiFi Web Server-33] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:10:33,359 INFO [NiFi Web Server-40] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:10:33,359 INFO [NiFi Web Server-31] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:10:33,359 INFO [NiFi Web Server-148] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:10:33,359 INFO [NiFi Web Server-35] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:10:33,359 INFO [NiFi Web Server-33] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:10:33,360 INFO [NiFi Web Server-31] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:10:33,360 INFO [NiFi Web Server-148] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:10:33,364 INFO [NiFi Web Server-99] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:10:33,364 INFO [NiFi Web Server-97] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:10:33,364 INFO [NiFi Web Server-35] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:10:33,364 INFO [NiFi Web Server-34] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:10:33,365 INFO [NiFi Web Server-99] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:10:33,365 INFO [NiFi Web Server-97] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:10:33,365 INFO [NiFi Web Server-35] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:10:33,365 INFO [NiFi Web Server-34] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:10:33,366 INFO [NiFi Web Server-99] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:10:33,366 INFO [NiFi Web Server-97] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:10:33,366 INFO [NiFi Web Server-35] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:10:33,366 INFO [NiFi Web Server-34] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:11:03,400 INFO [NiFi Web Server-38] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:11:03,400 INFO [NiFi Web Server-41] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:11:03,400 INFO [NiFi Web Server-39] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:11:03,400 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:11:03,400 INFO [NiFi Web Server-30] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:11:03,400 INFO [NiFi Web Server-38] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:11:03,400 INFO [NiFi Web Server-41] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:11:03,400 INFO [NiFi Web Server-39] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:11:03,401 INFO [NiFi Web Server-41] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:11:03,400 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:11:03,400 INFO [NiFi Web Server-30] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:11:03,401 INFO [NiFi Web Server-38] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:11:03,401 INFO [NiFi Web Server-39] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:11:03,401 INFO [NiFi Web Server-25] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:11:03,401 INFO [NiFi Web Server-30] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:11:03,405 INFO [NiFi Web Server-40] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:11:03,405 INFO [NiFi Web Server-34] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:11:03,405 INFO [NiFi Web Server-92] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:11:03,405 INFO [NiFi Web Server-26] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:11:03,405 INFO [NiFi Web Server-40] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:11:03,405 INFO [NiFi Web Server-34] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:11:03,405 INFO [NiFi Web Server-92] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:11:03,406 INFO [NiFi Web Server-34] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:11:03,406 INFO [NiFi Web Server-26] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:11:03,406 INFO [NiFi Web Server-40] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:11:03,406 INFO [NiFi Web Server-92] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:11:03,406 INFO [NiFi Web Server-26] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:11:33,448 INFO [NiFi Web Server-35] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:11:33,448 INFO [NiFi Web Server-31] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:11:33,448 INFO [NiFi Web Server-33] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:11:33,448 INFO [NiFi Web Server-148] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:11:33,448 INFO [NiFi Web Server-99] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:11:33,449 INFO [NiFi Web Server-35] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:11:33,449 INFO [NiFi Web Server-31] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:11:33,449 INFO [NiFi Web Server-33] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:11:33,449 INFO [NiFi Web Server-148] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:11:33,449 INFO [NiFi Web Server-99] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:11:33,450 INFO [NiFi Web Server-35] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:11:33,450 INFO [NiFi Web Server-31] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:11:33,450 INFO [NiFi Web Server-33] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:11:33,450 INFO [NiFi Web Server-148] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:11:33,450 INFO [NiFi Web Server-99] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:11:33,454 INFO [NiFi Web Server-97] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:11:33,454 INFO [NiFi Web Server-92] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:11:33,454 INFO [NiFi Web Server-39] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:11:33,454 INFO [NiFi Web Server-165] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:11:33,454 INFO [NiFi Web Server-97] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:11:33,454 INFO [NiFi Web Server-92] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:11:33,454 INFO [NiFi Web Server-39] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:11:33,455 INFO [NiFi Web Server-165] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:11:33,456 INFO [NiFi Web Server-39] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:11:33,455 INFO [NiFi Web Server-97] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:11:33,455 INFO [NiFi Web Server-92] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:11:33,456 INFO [NiFi Web Server-165] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:12:04,359 INFO [NiFi Web Server-26] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:12:04,359 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:12:04,359 INFO [NiFi Web Server-41] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:12:04,359 INFO [NiFi Web Server-40] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:12:04,359 INFO [NiFi Web Server-30] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:12:04,359 INFO [NiFi Web Server-26] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:12:04,359 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:12:04,360 INFO [NiFi Web Server-41] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:12:04,360 INFO [NiFi Web Server-40] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:12:04,360 INFO [NiFi Web Server-30] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:12:04,360 INFO [NiFi Web Server-26] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:12:04,360 INFO [NiFi Web Server-25] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:12:04,360 INFO [NiFi Web Server-41] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:12:04,360 INFO [NiFi Web Server-40] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:12:04,361 INFO [NiFi Web Server-30] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:12:04,364 INFO [NiFi Web Server-35] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:12:04,364 INFO [NiFi Web Server-34] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:12:04,365 INFO [NiFi Web Server-34] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:12:04,365 INFO [NiFi Web Server-35] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:12:04,365 INFO [NiFi Web Server-97] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:12:04,365 INFO [NiFi Web Server-34] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:12:04,365 INFO [NiFi Web Server-38] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:12:04,366 INFO [NiFi Web Server-35] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:12:04,366 INFO [NiFi Web Server-97] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:12:04,366 INFO [NiFi Web Server-38] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:12:04,366 INFO [NiFi Web Server-97] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:12:04,366 INFO [NiFi Web Server-38] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:12:12,705 INFO [NiFi Web Server-39] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/processors/dedc4ec4-018f-1000-ffff-ffffade8f817/descriptors (source ip: 172.18.0.1)
+2024-06-03 16:12:12,705 INFO [NiFi Web Server-39] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:12:12,706 INFO [NiFi Web Server-39] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/processors/dedc4ec4-018f-1000-ffff-ffffade8f817/descriptors (source ip: 172.18.0.1)
+2024-06-03 16:12:12,717 INFO [NiFi Web Server-40] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/processors/dedc4ec4-018f-1000-ffff-ffffade8f817/descriptors (source ip: 172.18.0.6)
+2024-06-03 16:12:12,718 INFO [NiFi Web Server-40] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:12:12,718 INFO [NiFi Web Server-40] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/processors/dedc4ec4-018f-1000-ffff-ffffade8f817/descriptors (source ip: 172.18.0.6)
+2024-06-03 16:12:35,356 INFO [NiFi Web Server-31] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:12:35,356 INFO [NiFi Web Server-33] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:12:35,356 INFO [NiFi Web Server-38] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:12:35,356 INFO [NiFi Web Server-92] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:12:35,356 INFO [NiFi Web Server-148] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:12:35,356 INFO [NiFi Web Server-31] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:12:35,357 INFO [NiFi Web Server-33] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:12:35,357 INFO [NiFi Web Server-38] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:12:35,357 INFO [NiFi Web Server-92] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:12:35,357 INFO [NiFi Web Server-148] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:12:35,357 INFO [NiFi Web Server-33] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:12:35,357 INFO [NiFi Web Server-38] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:12:35,358 INFO [NiFi Web Server-92] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:12:35,358 INFO [NiFi Web Server-148] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:12:35,358 INFO [NiFi Web Server-31] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:12:35,361 INFO [NiFi Web Server-39] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:12:35,361 INFO [NiFi Web Server-99] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:12:35,361 INFO [NiFi Web Server-35] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:12:35,362 INFO [NiFi Web Server-164] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:12:35,362 INFO [NiFi Web Server-39] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:12:35,362 INFO [NiFi Web Server-99] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:12:35,362 INFO [NiFi Web Server-35] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:12:35,363 INFO [NiFi Web Server-99] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:12:35,362 INFO [NiFi Web Server-164] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:12:35,363 INFO [NiFi Web Server-39] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:12:35,363 INFO [NiFi Web Server-35] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:12:35,363 INFO [NiFi Web Server-164] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:13:06,357 INFO [NiFi Web Server-40] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:13:06,357 INFO [NiFi Web Server-26] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:13:06,357 INFO [NiFi Web Server-30] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:13:06,357 INFO [NiFi Web Server-97] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:13:06,357 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:13:06,357 INFO [NiFi Web Server-40] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:13:06,357 INFO [NiFi Web Server-26] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:13:06,357 INFO [NiFi Web Server-30] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:13:06,357 INFO [NiFi Web Server-97] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:13:06,357 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:13:06,358 INFO [NiFi Web Server-40] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:13:06,358 INFO [NiFi Web Server-26] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:13:06,358 INFO [NiFi Web Server-30] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:13:06,358 INFO [NiFi Web Server-97] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:13:06,358 INFO [NiFi Web Server-25] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:13:06,362 INFO [NiFi Web Server-34] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:13:06,362 INFO [NiFi Web Server-39] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:13:06,363 INFO [NiFi Web Server-38] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:13:06,363 INFO [NiFi Web Server-34] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:13:06,363 INFO [NiFi Web Server-39] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:13:06,363 INFO [NiFi Web Server-38] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:13:06,364 INFO [NiFi Web Server-34] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:13:06,365 INFO [NiFi Web Server-38] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:13:06,365 INFO [NiFi Web Server-148] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:13:06,365 INFO [NiFi Web Server-148] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:13:06,365 INFO [NiFi Web Server-148] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:13:06,365 INFO [NiFi Web Server-39] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:13:37,356 INFO [NiFi Web Server-33] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:13:37,356 INFO [NiFi Web Server-92] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:13:37,356 INFO [NiFi Web Server-164] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:13:37,356 INFO [NiFi Web Server-31] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:13:37,356 INFO [NiFi Web Server-35] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:13:37,356 INFO [NiFi Web Server-33] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:13:37,356 INFO [NiFi Web Server-92] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:13:37,356 INFO [NiFi Web Server-164] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:13:37,357 INFO [NiFi Web Server-31] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:13:37,357 INFO [NiFi Web Server-35] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:13:37,357 INFO [NiFi Web Server-33] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:13:37,358 INFO [NiFi Web Server-35] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:13:37,357 INFO [NiFi Web Server-92] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:13:37,357 INFO [NiFi Web Server-164] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:13:37,357 INFO [NiFi Web Server-31] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:13:37,361 INFO [NiFi Web Server-38] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:13:37,362 INFO [NiFi Web Server-38] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:13:37,362 INFO [NiFi Web Server-99] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:13:37,362 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:13:37,362 INFO [NiFi Web Server-39] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:13:37,363 INFO [NiFi Web Server-38] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:13:37,363 INFO [NiFi Web Server-99] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:13:37,363 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:13:37,363 INFO [NiFi Web Server-39] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:13:37,364 INFO [NiFi Web Server-25] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:13:37,364 INFO [NiFi Web Server-99] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:13:37,364 INFO [NiFi Web Server-39] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:14:08,351 INFO [NiFi Web Server-97] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:14:08,351 INFO [NiFi Web Server-40] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:14:08,351 INFO [NiFi Web Server-26] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:14:08,351 INFO [NiFi Web Server-30] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:14:08,351 INFO [NiFi Web Server-34] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:14:08,352 INFO [NiFi Web Server-97] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:14:08,352 INFO [NiFi Web Server-40] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:14:08,352 INFO [NiFi Web Server-26] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:14:08,352 INFO [NiFi Web Server-30] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:14:08,352 INFO [NiFi Web Server-34] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:14:08,352 INFO [NiFi Web Server-97] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:14:08,352 INFO [NiFi Web Server-40] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:14:08,353 INFO [NiFi Web Server-26] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:14:08,353 INFO [NiFi Web Server-30] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:14:08,353 INFO [NiFi Web Server-34] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:14:08,356 INFO [NiFi Web Server-39] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:14:08,356 INFO [NiFi Web Server-92] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:14:08,356 INFO [NiFi Web Server-164] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:14:08,356 INFO [NiFi Web Server-148] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:14:08,356 INFO [NiFi Web Server-39] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:14:08,356 INFO [NiFi Web Server-92] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:14:08,357 INFO [NiFi Web Server-164] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:14:08,357 INFO [NiFi Web Server-148] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:14:08,357 INFO [NiFi Web Server-39] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:14:08,357 INFO [NiFi Web Server-148] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:14:08,357 INFO [NiFi Web Server-92] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:14:08,357 INFO [NiFi Web Server-164] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:14:39,356 INFO [NiFi Web Server-26] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:14:39,356 INFO [NiFi Web Server-99] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:14:39,356 INFO [NiFi Web Server-31] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:14:39,356 INFO [NiFi Web Server-35] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:14:39,356 INFO [NiFi Web Server-33] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:14:39,357 INFO [NiFi Web Server-99] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:14:39,357 INFO [NiFi Web Server-26] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:14:39,357 INFO [NiFi Web Server-31] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:14:39,357 INFO [NiFi Web Server-35] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:14:39,357 INFO [NiFi Web Server-33] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:14:39,357 INFO [NiFi Web Server-99] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:14:39,357 INFO [NiFi Web Server-26] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:14:39,357 INFO [NiFi Web Server-31] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:14:39,358 INFO [NiFi Web Server-35] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:14:39,358 INFO [NiFi Web Server-33] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:14:39,361 INFO [NiFi Web Server-30] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:14:39,361 INFO [NiFi Web Server-38] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:14:39,361 INFO [NiFi Web Server-164] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:14:39,361 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:14:39,361 INFO [NiFi Web Server-30] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:14:39,362 INFO [NiFi Web Server-38] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:14:39,362 INFO [NiFi Web Server-164] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:14:39,362 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:14:39,362 INFO [NiFi Web Server-30] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:14:39,362 INFO [NiFi Web Server-38] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:14:39,362 INFO [NiFi Web Server-164] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:14:39,362 INFO [NiFi Web Server-25] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:15:10,359 INFO [NiFi Web Server-40] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:15:10,359 INFO [NiFi Web Server-97] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:15:10,359 INFO [NiFi Web Server-39] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:15:10,359 INFO [NiFi Web Server-148] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:15:10,359 INFO [NiFi Web Server-34] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:15:10,359 INFO [NiFi Web Server-40] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:15:10,360 INFO [NiFi Web Server-97] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:15:10,360 INFO [NiFi Web Server-39] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:15:10,360 INFO [NiFi Web Server-97] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:15:10,360 INFO [NiFi Web Server-148] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:15:10,360 INFO [NiFi Web Server-34] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:15:10,360 INFO [NiFi Web Server-148] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:15:10,360 INFO [NiFi Web Server-40] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:15:10,360 INFO [NiFi Web Server-39] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:15:10,361 INFO [NiFi Web Server-34] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:15:10,363 INFO [NiFi Web Server-31] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:15:10,364 INFO [NiFi Web Server-92] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:15:10,363 INFO [NiFi Web Server-30] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:15:10,364 INFO [NiFi Web Server-149] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:15:10,364 INFO [NiFi Web Server-31] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:15:10,364 INFO [NiFi Web Server-92] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:15:10,364 INFO [NiFi Web Server-30] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:15:10,364 INFO [NiFi Web Server-31] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:15:10,364 INFO [NiFi Web Server-149] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:15:10,364 INFO [NiFi Web Server-92] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:15:10,365 INFO [NiFi Web Server-30] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:15:10,365 INFO [NiFi Web Server-149] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:15:41,363 INFO [NiFi Web Server-35] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:15:41,363 INFO [NiFi Web Server-99] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:15:41,363 INFO [NiFi Web Server-148] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:15:41,363 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:15:41,363 INFO [NiFi Web Server-26] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:15:41,364 INFO [NiFi Web Server-35] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:15:41,364 INFO [NiFi Web Server-99] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:15:41,364 INFO [NiFi Web Server-148] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:15:41,364 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:15:41,364 INFO [NiFi Web Server-26] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:15:41,364 INFO [NiFi Web Server-99] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:15:41,364 INFO [NiFi Web Server-35] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:15:41,364 INFO [NiFi Web Server-148] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:15:41,365 INFO [NiFi Web Server-25] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:15:41,365 INFO [NiFi Web Server-26] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:15:41,369 INFO [NiFi Web Server-38] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:15:41,369 INFO [NiFi Web Server-164] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:15:41,369 INFO [NiFi Web Server-149] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:15:41,369 INFO [NiFi Web Server-169] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:15:41,369 INFO [NiFi Web Server-38] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:15:41,369 INFO [NiFi Web Server-164] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:15:41,369 INFO [NiFi Web Server-149] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:15:41,371 INFO [NiFi Web Server-164] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:15:41,371 INFO [NiFi Web Server-169] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:15:41,371 INFO [NiFi Web Server-38] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:15:41,371 INFO [NiFi Web Server-149] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:15:41,371 INFO [NiFi Web Server-169] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:16:12,354 INFO [NiFi Web Server-34] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:16:12,354 INFO [NiFi Web Server-92] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:16:12,354 INFO [NiFi Web Server-97] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:16:12,354 INFO [NiFi Web Server-40] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:16:12,354 INFO [NiFi Web Server-39] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:16:12,354 INFO [NiFi Web Server-34] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:16:12,354 INFO [NiFi Web Server-92] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:16:12,355 INFO [NiFi Web Server-97] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:16:12,355 INFO [NiFi Web Server-92] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:16:12,355 INFO [NiFi Web Server-40] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:16:12,355 INFO [NiFi Web Server-39] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:16:12,355 INFO [NiFi Web Server-34] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:16:12,355 INFO [NiFi Web Server-97] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:16:12,355 INFO [NiFi Web Server-40] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:16:12,356 INFO [NiFi Web Server-39] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:16:12,358 INFO [NiFi Web Server-30] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:16:12,359 INFO [NiFi Web Server-149] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:16:12,359 INFO [NiFi Web Server-30] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:16:12,359 INFO [NiFi Web Server-164] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:16:12,359 INFO [NiFi Web Server-149] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:16:12,359 INFO [NiFi Web Server-164] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:16:12,359 INFO [NiFi Web Server-30] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:16:12,360 INFO [NiFi Web Server-31] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:16:12,360 INFO [NiFi Web Server-149] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:16:12,360 INFO [NiFi Web Server-164] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:16:12,360 INFO [NiFi Web Server-31] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:16:12,361 INFO [NiFi Web Server-31] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:16:43,360 INFO [NiFi Web Server-26] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:16:43,360 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:16:43,360 INFO [NiFi Web Server-34] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:16:43,360 INFO [NiFi Web Server-148] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:16:43,360 INFO [NiFi Web Server-99] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:16:43,360 INFO [NiFi Web Server-26] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:16:43,360 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:16:43,361 INFO [NiFi Web Server-34] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:16:43,361 INFO [NiFi Web Server-25] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:16:43,361 INFO [NiFi Web Server-148] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:16:43,361 INFO [NiFi Web Server-99] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:16:43,361 INFO [NiFi Web Server-26] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:16:43,361 INFO [NiFi Web Server-34] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:16:43,362 INFO [NiFi Web Server-148] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:16:43,362 INFO [NiFi Web Server-99] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:16:43,365 INFO [NiFi Web Server-30] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:16:43,365 INFO [NiFi Web Server-92] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:16:43,365 INFO [NiFi Web Server-38] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:16:43,365 INFO [NiFi Web Server-170] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:16:43,366 INFO [NiFi Web Server-30] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:16:43,366 INFO [NiFi Web Server-92] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:16:43,366 INFO [NiFi Web Server-38] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:16:43,366 INFO [NiFi Web Server-170] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:16:43,367 INFO [NiFi Web Server-38] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:16:43,367 INFO [NiFi Web Server-170] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:16:43,367 INFO [NiFi Web Server-30] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:16:43,367 INFO [NiFi Web Server-92] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:17:14,362 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:17:14,362 INFO [NiFi Web Server-93] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:17:14,362 INFO [NiFi Web Server-148] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:17:14,362 INFO [NiFi Web Server-26] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:17:14,362 INFO [NiFi Web Server-92] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:17:14,362 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:17:14,362 INFO [NiFi Web Server-93] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:17:14,362 INFO [NiFi Web Server-148] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:17:14,363 INFO [NiFi Web Server-26] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:17:14,363 INFO [NiFi Web Server-92] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:17:14,363 INFO [NiFi Web Server-25] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:17:14,363 INFO [NiFi Web Server-93] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:17:14,363 INFO [NiFi Web Server-148] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:17:14,363 INFO [NiFi Web Server-26] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:17:14,363 INFO [NiFi Web Server-92] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:17:14,367 INFO [NiFi Web Server-40] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:17:14,367 INFO [NiFi Web Server-164] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:17:14,367 INFO [NiFi Web Server-38] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:17:14,367 INFO [NiFi Web Server-168] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:17:14,368 INFO [NiFi Web Server-40] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:17:14,368 INFO [NiFi Web Server-164] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:17:14,368 INFO [NiFi Web Server-38] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:17:14,368 INFO [NiFi Web Server-168] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:17:14,368 INFO [NiFi Web Server-40] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:17:14,369 INFO [NiFi Web Server-168] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:17:14,368 INFO [NiFi Web Server-164] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:17:14,369 INFO [NiFi Web Server-38] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:17:45,366 INFO [NiFi Web Server-97] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:17:45,366 INFO [NiFi Web Server-31] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:17:45,366 INFO [NiFi Web Server-39] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:17:45,366 INFO [NiFi Web Server-149] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:17:45,366 INFO [NiFi Web Server-35] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:17:45,366 INFO [NiFi Web Server-97] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:17:45,366 INFO [NiFi Web Server-31] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:17:45,366 INFO [NiFi Web Server-39] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:17:45,367 INFO [NiFi Web Server-149] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:17:45,367 INFO [NiFi Web Server-35] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:17:45,367 INFO [NiFi Web Server-97] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:17:45,367 INFO [NiFi Web Server-31] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:17:45,367 INFO [NiFi Web Server-39] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:17:45,367 INFO [NiFi Web Server-149] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:17:45,367 INFO [NiFi Web Server-35] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:17:45,371 INFO [NiFi Web Server-99] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:17:45,371 INFO [NiFi Web Server-168] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:17:45,371 INFO [NiFi Web Server-26] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:17:45,371 INFO [NiFi Web Server-30] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:17:45,372 INFO [NiFi Web Server-99] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:17:45,372 INFO [NiFi Web Server-168] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:17:45,372 INFO [NiFi Web Server-26] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:17:45,372 INFO [NiFi Web Server-30] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:17:45,372 INFO [NiFi Web Server-99] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:17:45,372 INFO [NiFi Web Server-168] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:17:45,373 INFO [NiFi Web Server-26] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:17:45,373 INFO [NiFi Web Server-30] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:18:15,889 INFO [NiFi Web Server-93] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:18:15,889 INFO [NiFi Web Server-164] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:18:15,889 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:18:15,889 INFO [NiFi Web Server-148] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:18:15,889 INFO [NiFi Web Server-40] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:18:15,890 INFO [NiFi Web Server-93] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:18:15,890 INFO [NiFi Web Server-164] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:18:15,890 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:18:15,890 INFO [NiFi Web Server-148] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:18:15,890 INFO [NiFi Web Server-40] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:18:15,891 INFO [NiFi Web Server-93] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:18:15,891 INFO [NiFi Web Server-164] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:18:15,891 INFO [NiFi Web Server-25] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:18:15,891 INFO [NiFi Web Server-148] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:18:15,891 INFO [NiFi Web Server-40] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:18:15,895 INFO [NiFi Web Server-97] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:18:15,895 INFO [NiFi Web Server-38] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:18:15,895 INFO [NiFi Web Server-31] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:18:15,896 INFO [NiFi Web Server-99] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:18:15,896 INFO [NiFi Web Server-97] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:18:15,896 INFO [NiFi Web Server-38] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:18:15,896 INFO [NiFi Web Server-31] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:18:15,896 INFO [NiFi Web Server-99] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:18:15,897 INFO [NiFi Web Server-97] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:18:15,897 INFO [NiFi Web Server-38] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:18:15,897 INFO [NiFi Web Server-31] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:18:15,897 INFO [NiFi Web Server-99] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:18:25,969 INFO [NiFi Web Server-30] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) DELETE http://localhost:8091/nifi-api/processors/dedc4ec4-018f-1000-ffff-ffffade8f817 (source ip: 172.18.0.1)
+2024-06-03 16:18:25,971 INFO [NiFi Web Server-30] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:18:25,971 INFO [NiFi Web Server-30] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) DELETE http://localhost:8091/nifi-api/processors/dedc4ec4-018f-1000-ffff-ffffade8f817 (source ip: 172.18.0.1)
+2024-06-03 16:18:25,977 INFO [NiFi Web Server-26] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) DELETE http://mynifi:8080/nifi-api/processors/dedc4ec4-018f-1000-ffff-ffffade8f817 (source ip: 172.18.0.6)
+2024-06-03 16:18:25,978 INFO [NiFi Web Server-26] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:18:25,991 INFO [NiFi Web Server-26] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) DELETE http://mynifi:8080/nifi-api/processors/dedc4ec4-018f-1000-ffff-ffffade8f817 (source ip: 172.18.0.6)
+2024-06-03 16:18:26,002 INFO [NiFi Web Server-97] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) DELETE http://mynifi:8080/nifi-api/processors/dedc4ec4-018f-1000-ffff-ffffade8f817 (source ip: 172.18.0.6)
+2024-06-03 16:18:26,003 INFO [NiFi Web Server-97] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:18:26,003 INFO [NiFi Web Server-97] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) DELETE http://mynifi:8080/nifi-api/processors/dedc4ec4-018f-1000-ffff-ffffade8f817 (source ip: 172.18.0.6)
+2024-06-03 16:18:46,366 INFO [NiFi Web Server-26] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:18:46,366 INFO [NiFi Web Server-148] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:18:46,366 INFO [NiFi Web Server-39] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:18:46,366 INFO [NiFi Web Server-149] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:18:46,366 INFO [NiFi Web Server-35] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:18:46,366 INFO [NiFi Web Server-26] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:18:46,366 INFO [NiFi Web Server-148] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:18:46,366 INFO [NiFi Web Server-39] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:18:46,366 INFO [NiFi Web Server-149] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:18:46,367 INFO [NiFi Web Server-35] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:18:46,367 INFO [NiFi Web Server-26] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:18:46,367 INFO [NiFi Web Server-148] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:18:46,367 INFO [NiFi Web Server-39] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:18:46,367 INFO [NiFi Web Server-149] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:18:46,367 INFO [NiFi Web Server-35] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:18:46,371 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:18:46,372 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:18:46,373 INFO [NiFi Web Server-33] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:18:46,373 INFO [NiFi Web Server-31] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:18:46,373 INFO [NiFi Web Server-168] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:18:46,373 INFO [NiFi Web Server-25] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:18:46,373 INFO [NiFi Web Server-33] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:18:46,373 INFO [NiFi Web Server-31] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:18:46,374 INFO [NiFi Web Server-33] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:18:46,374 INFO [NiFi Web Server-31] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:18:46,373 INFO [NiFi Web Server-168] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:18:46,374 INFO [NiFi Web Server-168] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:19:17,360 INFO [NiFi Web Server-93] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:19:17,361 INFO [NiFi Web Server-93] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:19:17,361 INFO [NiFi Web Server-30] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:19:17,361 INFO [NiFi Web Server-35] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:19:17,361 INFO [NiFi Web Server-93] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:19:17,362 INFO [NiFi Web Server-35] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:19:17,362 INFO [NiFi Web Server-40] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:19:17,362 INFO [NiFi Web Server-97] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:19:17,362 INFO [NiFi Web Server-35] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:19:17,362 INFO [NiFi Web Server-40] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:19:17,362 INFO [NiFi Web Server-97] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:19:17,363 INFO [NiFi Web Server-40] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:19:17,362 INFO [NiFi Web Server-30] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:19:17,364 INFO [NiFi Web Server-97] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:19:17,364 INFO [NiFi Web Server-30] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:19:17,368 INFO [NiFi Web Server-99] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:19:17,368 INFO [NiFi Web Server-99] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:19:17,369 INFO [NiFi Web Server-26] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:19:17,370 INFO [NiFi Web Server-99] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:19:17,370 INFO [NiFi Web Server-26] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:19:17,371 INFO [NiFi Web Server-38] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:19:17,371 INFO [NiFi Web Server-170] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:19:17,371 INFO [NiFi Web Server-26] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:19:17,371 INFO [NiFi Web Server-38] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:19:17,371 INFO [NiFi Web Server-170] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:19:17,371 INFO [NiFi Web Server-38] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:19:17,371 INFO [NiFi Web Server-170] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:19:48,362 INFO [NiFi Web Server-39] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:19:48,362 INFO [NiFi Web Server-33] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:19:48,362 INFO [NiFi Web Server-149] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:19:48,362 INFO [NiFi Web Server-148] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:19:48,362 INFO [NiFi Web Server-168] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:19:48,362 INFO [NiFi Web Server-39] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:19:48,362 INFO [NiFi Web Server-33] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:19:48,363 INFO [NiFi Web Server-149] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:19:48,363 INFO [NiFi Web Server-148] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:19:48,363 INFO [NiFi Web Server-168] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:19:48,363 INFO [NiFi Web Server-39] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:19:48,363 INFO [NiFi Web Server-33] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:19:48,363 INFO [NiFi Web Server-149] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:19:48,363 INFO [NiFi Web Server-148] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:19:48,363 INFO [NiFi Web Server-168] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:19:48,367 INFO [NiFi Web Server-31] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:19:48,367 INFO [NiFi Web Server-93] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:19:48,367 INFO [NiFi Web Server-99] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:19:48,368 INFO [NiFi Web Server-31] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:19:48,368 INFO [NiFi Web Server-93] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:19:48,368 INFO [NiFi Web Server-31] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:19:48,368 INFO [NiFi Web Server-99] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:19:48,368 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:19:48,368 INFO [NiFi Web Server-93] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:19:48,369 INFO [NiFi Web Server-99] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:19:48,369 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:19:48,369 INFO [NiFi Web Server-25] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:20:19,358 INFO [NiFi Web Server-38] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:20:19,358 INFO [NiFi Web Server-97] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:20:19,358 INFO [NiFi Web Server-30] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:20:19,358 INFO [NiFi Web Server-35] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:20:19,358 INFO [NiFi Web Server-26] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:20:19,358 INFO [NiFi Web Server-38] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:20:19,358 INFO [NiFi Web Server-97] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:20:19,358 INFO [NiFi Web Server-30] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:20:19,359 INFO [NiFi Web Server-97] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:20:19,359 INFO [NiFi Web Server-35] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:20:19,359 INFO [NiFi Web Server-26] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:20:19,359 INFO [NiFi Web Server-38] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:20:19,359 INFO [NiFi Web Server-30] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:20:19,359 INFO [NiFi Web Server-35] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:20:19,359 INFO [NiFi Web Server-26] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:20:19,363 INFO [NiFi Web Server-92] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:20:19,363 INFO [NiFi Web Server-93] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:20:19,363 INFO [NiFi Web Server-39] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:20:19,363 INFO [NiFi Web Server-92] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:20:19,363 INFO [NiFi Web Server-93] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:20:19,363 INFO [NiFi Web Server-39] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:20:19,363 INFO [NiFi Web Server-92] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:20:19,363 INFO [NiFi Web Server-93] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:20:19,364 INFO [NiFi Web Server-39] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:20:19,364 INFO [NiFi Web Server-171] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:20:19,364 INFO [NiFi Web Server-171] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:20:19,364 INFO [NiFi Web Server-171] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:20:49,388 INFO [NiFi Web Server-33] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:20:49,388 INFO [NiFi Web Server-38] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:20:49,388 INFO [NiFi Web Server-168] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:20:49,388 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:20:49,388 INFO [NiFi Web Server-149] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:20:49,388 INFO [NiFi Web Server-33] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:20:49,388 INFO [NiFi Web Server-38] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:20:49,388 INFO [NiFi Web Server-168] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:20:49,388 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:20:49,388 INFO [NiFi Web Server-149] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:20:49,389 INFO [NiFi Web Server-33] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:20:49,389 INFO [NiFi Web Server-38] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:20:49,389 INFO [NiFi Web Server-168] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:20:49,389 INFO [NiFi Web Server-25] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:20:49,389 INFO [NiFi Web Server-149] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:20:49,393 INFO [NiFi Web Server-31] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:20:49,393 INFO [NiFi Web Server-99] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:20:49,393 INFO [NiFi Web Server-35] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:20:49,393 INFO [NiFi Web Server-39] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:20:49,393 INFO [NiFi Web Server-31] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:20:49,394 INFO [NiFi Web Server-99] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:20:49,394 INFO [NiFi Web Server-35] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:20:49,394 INFO [NiFi Web Server-39] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:20:49,394 INFO [NiFi Web Server-31] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:20:49,394 INFO [NiFi Web Server-99] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:20:49,395 INFO [NiFi Web Server-35] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:20:49,395 INFO [NiFi Web Server-39] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:21:19,421 INFO [NiFi Web Server-171] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:21:19,421 INFO [NiFi Web Server-97] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:21:19,421 INFO [NiFi Web Server-26] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:21:19,421 INFO [NiFi Web Server-93] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:21:19,421 INFO [NiFi Web Server-30] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:21:19,421 INFO [NiFi Web Server-171] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:21:19,422 INFO [NiFi Web Server-97] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:21:19,422 INFO [NiFi Web Server-26] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:21:19,422 INFO [NiFi Web Server-93] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:21:19,422 INFO [NiFi Web Server-30] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:21:19,422 INFO [NiFi Web Server-171] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/cluster/summary (source ip: 172.18.0.1)
+2024-06-03 16:21:19,422 INFO [NiFi Web Server-97] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/status (source ip: 172.18.0.1)
+2024-06-03 16:21:19,423 INFO [NiFi Web Server-26] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/current-user (source ip: 172.18.0.1)
+2024-06-03 16:21:19,423 INFO [NiFi Web Server-93] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.1)
+2024-06-03 16:21:19,423 INFO [NiFi Web Server-30] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://localhost:8091/nifi-api/flow/controller/bulletins (source ip: 172.18.0.1)
+2024-06-03 16:21:19,426 INFO [NiFi Web Server-99] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:21:19,426 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:21:19,426 INFO [NiFi Web Server-92] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:21:19,426 INFO [NiFi Web Server-33] o.a.n.w.s.NiFiAuthenticationFilter Attempting request for (<anonymous>) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
+2024-06-03 16:21:19,427 INFO [NiFi Web Server-99] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:21:19,427 INFO [NiFi Web Server-25] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:21:19,427 INFO [NiFi Web Server-92] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:21:19,427 INFO [NiFi Web Server-33] o.a.n.w.s.NiFiAuthenticationFilter Authentication success for anonymous
+2024-06-03 16:21:19,428 INFO [NiFi Web Server-99] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/status (source ip: 172.18.0.6)
+2024-06-03 16:21:19,428 INFO [NiFi Web Server-25] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/controller/bulletins (source ip: 172.18.0.6)
+2024-06-03 16:21:19,428 INFO [NiFi Web Server-92] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/process-groups/ded6db0f-018f-1000-7c46-525efc61d336 (source ip: 172.18.0.6)
+2024-06-03 16:21:19,428 INFO [NiFi Web Server-33] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://mynifi:8080/nifi-api/flow/current-user (source ip: 172.18.0.6)
