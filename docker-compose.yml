@@ -303,7 +303,7 @@ services:
   registry:
     hostname: myregistry
     container_name: registry_container_persistent
-    image: 'apache/nifi-registry:1.15.0'  # latest image as of 2021-11-09.
+    image: 'apache/nifi-registry:1.15.0' 
     restart: on-failure
     ports:
       - "18080:18080"
