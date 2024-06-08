@@ -4,7 +4,7 @@ services:
     image: apache/hadoop:3
     hostname: namenode
     container_name: namenode
-    command: [ "hdfs", "namenode" ]
+    command: [ "hdfs", "namenode", ]
     depends_on:
       - resourcemanager
       - nodemanager
@@ -345,8 +345,7 @@ services:
       - ./nifi/provenance_repository:/opt/nifi/nifi-current/provenance_repository
       - ./nifi/state:/opt/nifi/nifi-current/state
       - ./nifi/logs:/opt/nifi/nifi-current/logs
-        # uncomment the next line after copying the /conf directory from the container to your local directory to persist NiFi flows
-        #- ./nifi/conf:/opt/nifi/nifi-current/conf
+      - ./nifi/conf:/opt/nifi/nifi-current/conf
     networks:
       - my_persistent_network
 volumes:
