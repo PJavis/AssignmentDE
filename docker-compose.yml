@@ -1,5 +1,24 @@
 version: '3.6'
 services:
+  zookeeper:
+    hostname: myzookeeper
+    image: confluentinc/cp-zookeeper:${CONFLUENT_VERSION}
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+      ZOOKEEPER_TICK_TIME: 2000
+      ZOOKEEPER_INIT_LIMIT: 5
+      ZOOKEEPER_SYNC_LIMIT: 2
+    ports:
+      - "2181:2181"
+    container_name: zookeeper
+    healthcheck:
+      test: nc -z zookeeper 2181 || exit -1
+      start_period: 15s
+      interval: 5s
+      timeout: 10s
+      retries: 10
+    networks:
+      - my_persistent_network
   namenode:
     image: apache/hadoop:3
     hostname: namenode
@@ -78,15 +97,17 @@ services:
 
   broker01:
     image: confluentinc/cp-kafka:${CONFLUENT_VERSION}
+    depends_on:
+      zookeeper:
+        condition: service_healthy
     container_name: broker01
     environment:
-      KAFKA_NODE_ID: 1
-      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: CONTROLLER:PLAINTEXT,PLAINTEXT:PLAINTEXT,CLIENT:PLAINTEXT
-      KAFKA_LISTENERS: PLAINTEXT://broker01:9092,CONTROLLER://broker01:9093,CLIENT://broker01:9094
-      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://broker01:9092,CLIENT://broker01:9094
-      KAFKA_CONTROLLER_LISTENER_NAMES: 'CONTROLLER'
-      KAFKA_CONTROLLER_QUORUM_VOTERS: '1@broker01:9093,2@broker02:9093'
-      KAFKA_PROCESS_ROLES: 'broker,controller'
+      KAFKA_BROKER_ID: 1
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_LISTENERS: PLAINTEXT_HOST://broker01:9092,PLAINTEXT://broker01:9093
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT_HOST://localhost:9092,PLAINTEXT://broker01:9093
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT,PLAINTEXT_HOST:PLAINTEXT
+      KAFKA_INTER_BROKER_LISTENER_NAME: PLAINTEXT
       KAFKA_JMX_PORT: 9090
       KAFKA_LOG_DIRS: /var/log/kafka
       KAFKA_NUM_PARTITIONS: 2
@@ -99,9 +120,8 @@ services:
     volumes:
       - ./config/kafka_init/run_workaround.sh:/tmp/run_workaround.sh
     ports:
-      - '9092:9094'
+      - '9092:9092'
     mem_limit: ${MEM_LIMIT}
-    command: "bash -c '/tmp/run_workaround.sh && /etc/confluent/docker/run'"
     healthcheck:
       test: nc -z broker01 9092 || exit -1
       start_period: 15s
@@ -110,18 +130,19 @@ services:
       retries: 10
     networks:
       - my_persistent_network
-
   broker02:
     image: confluentinc/cp-kafka:${CONFLUENT_VERSION}
+    depends_on:
+      zookeeper:
+        condition: service_healthy
     container_name: broker02
     environment:
-      KAFKA_NODE_ID: 2
-      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: CONTROLLER:PLAINTEXT,PLAINTEXT:PLAINTEXT,CLIENT:PLAINTEXT
-      KAFKA_LISTENERS: PLAINTEXT://broker02:9092,CONTROLLER://broker02:9093,CLIENT://broker02:9094
-      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://broker02:9092,CLIENT://broker02:9094
-      KAFKA_CONTROLLER_LISTENER_NAMES: 'CONTROLLER'
-      KAFKA_CONTROLLER_QUORUM_VOTERS: '1@broker01:9093,2@broker02:9093'
-      KAFKA_PROCESS_ROLES: 'broker,controller'
+      KAFKA_BROKER_ID: 2
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_LISTENERS: PLAINTEXT_HOST://broker02:9094,PLAINTEXT://broker02:9093
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT_HOST://localhost:9094,PLAINTEXT://broker02:9093
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT,PLAINTEXT_HOST:PLAINTEXT
+      KAFKA_INTER_BROKER_LISTENER_NAME: PLAINTEXT
       KAFKA_JMX_PORT: 9090
       KAFKA_LOG_DIRS: /var/log/kafka
       KAFKA_NUM_PARTITIONS: 2
@@ -136,9 +157,8 @@ services:
     ports:
       - '9094:9094'
     mem_limit: ${MEM_LIMIT}
-    command: "bash -c '/tmp/run_workaround.sh && /etc/confluent/docker/run'"
     healthcheck:
-      test: nc -z broker02 9092 || exit -1
+      test: nc -z broker02 9094 || exit -1
       start_period: 15s
       interval: 5s
       timeout: 10s
@@ -146,164 +166,145 @@ services:
     networks:
       - my_persistent_network
 
-#  kc01:
-#    image: confluentinc/cp-kafka-connect:${CONFLUENT_VERSION}
-#    container_name: kc01
-#    ports:
-#      - '8083:8083'
-#    depends_on:
-#      broker01:
-#        condition: service_healthy
-#      broker02:
-#        condition: service_healthy
-#    volumes:
-#      - ./connectors:/home/appuser/connectors
-#      - ./libs:/home/appuser/libs
-#    environment:
-#      CLASSPATH: /home/appuser/libs/*
-#      CONNECT_BOOTSTRAP_SERVERS: "broker01:9092,broker02:9092"
-#      CONNECT_REST_ADVERTISED_HOST_NAME: "kafka-connect01"
-#      CONNECT_REST_PORT: 8083
-#      CONNECT_GROUP_ID: kafka-connect-vdt
-#      CONNECT_CONFIG_STORAGE_TOPIC: _kafka-connect-configs
-#      CONNECT_OFFSET_STORAGE_TOPIC: _kafka-connect-offsets
-#      CONNECT_STATUS_STORAGE_TOPIC: _kafka-connect-status
-#      CONNECT_KEY_CONVERTER: org.apache.kafka.connect.json.JsonConverter
-#      CONNECT_VALUE_CONVERTER: org.apache.kafka.connect.json.JsonConverter
-#      CONNECT_INTERNAL_KEY_CONVERTER: "org.apache.kafka.connect.json.JsonConverter"
-#      CONNECT_INTERNAL_VALUE_CONVERTER: "org.apache.kafka.connect.json.JsonConverter"
-#      CONNECT_LOG4J_ROOT_LOGLEVEL: "INFO"
-#      CONNECT_LOG4J_LOGGERS: "org.apache.kafka.connect.runtime.rest=WARN,org.reflections=ERROR"
-#      CONNECT_LOG4J_APPENDER_STDOUT_LAYOUT_CONVERSIONPATTERN: "[%d] %p %X{connector.context}%m (%c:%L)%n"
-#      CONNECT_CONFIG_STORAGE_REPLICATION_FACTOR: "1"
-#      CONNECT_OFFSET_STORAGE_REPLICATION_FACTOR: "1"
-#      CONNECT_STATUS_STORAGE_REPLICATION_FACTOR: "1"
-#      CONNECT_PLUGIN_PATH: '/usr/share/java,/usr/share/confluent-hub-components/,/home/appuser/connectors/'
-#    mem_limit: ${MEM_LIMIT}
-#    command:
-#      - bash
-#      - -c
-#      - |
-#        # Run kafka
-#        echo "Launching Kafka Connect worker"
-#        /etc/confluent/docker/run &
-#        #
-#        sleep infinity
-#    healthcheck:
-#      test: nc -z kc01 8083 || exit -1
-#      start_period: 15s
-#      interval: 5s
-#      timeout: 10s
-#      retries: 10
-#    networks:
-#      - my_persistent_network
-#
-#  kc02:
-#    image: confluentinc/cp-kafka-connect:${CONFLUENT_VERSION}
-#    container_name: kc02
-#    ports:
-#      - '8093:8083'
-#    depends_on:
-#      broker01:
-#        condition: service_healthy
-#      broker02:
-#        condition: service_healthy
-#    volumes:
-#      - ./connectors:/home/appuser/connectors
-#      - ./libs:/home/appuser/libs
-#    environment:
-#      CLASSPATH: /home/appuser/libs/*
-#      CONNECT_BOOTSTRAP_SERVERS: "broker01:9092,broker02:9092"
-#      CONNECT_REST_ADVERTISED_HOST_NAME: "kc02"
-#      CONNECT_REST_PORT: 8083
-#      CONNECT_GROUP_ID: kafka-connect-vdt
-#      CONNECT_CONFIG_STORAGE_TOPIC: _kafka-connect-configs
-#      CONNECT_OFFSET_STORAGE_TOPIC: _kafka-connect-offsets
-#      CONNECT_STATUS_STORAGE_TOPIC: _kafka-connect-status
-#      CONNECT_KEY_CONVERTER: org.apache.kafka.connect.json.JsonConverter
-#      CONNECT_VALUE_CONVERTER: org.apache.kafka.connect.json.JsonConverter
-#      CONNECT_INTERNAL_KEY_CONVERTER: "org.apache.kafka.connect.json.JsonConverter"
-#      CONNECT_INTERNAL_VALUE_CONVERTER: "org.apache.kafka.connect.json.JsonConverter"
-#      CONNECT_LOG4J_ROOT_LOGLEVEL: "INFO"
-#      CONNECT_LOG4J_LOGGERS: "org.apache.kafka.connect.runtime.rest=WARN,org.reflections=ERROR"
-#      CONNECT_LOG4J_APPENDER_STDOUT_LAYOUT_CONVERSIONPATTERN: "[%d] %p %X{connector.context}%m (%c:%L)%n"
-#      CONNECT_CONFIG_STORAGE_REPLICATION_FACTOR: "1"
-#      CONNECT_OFFSET_STORAGE_REPLICATION_FACTOR: "1"
-#      CONNECT_STATUS_STORAGE_REPLICATION_FACTOR: "1"
-#      CONNECT_PLUGIN_PATH: '/usr/share/java,/usr/share/confluent-hub-components/,/home/appuser/connectors/'
-#    mem_limit: ${MEM_LIMIT}
-#    command:
-#      - bash
-#      - -c
-#      - |
-#        # Run kafka
-#        echo "Launching Kafka Connect worker"
-#        /etc/confluent/docker/run &
-#        #
-#        sleep infinity
-#    healthcheck:
-#      test: nc -z kc02 8083 || exit -1
-#      start_period: 15s
-#      interval: 5s
-#      timeout: 10s
-#      retries: 10
-#    networks:
-#      - my_persistent_network
-#
-#  kafka-ui:
-#    container_name: kafka-ui
-#    image: provectuslabs/kafka-ui:latest
-#    ports:
-#      - '8080:8080'
-#    depends_on:
-#      broker01:
-#        condition: service_healthy
-#      broker02:
-#        condition: service_healthy
-#      kc01:
-#        condition: service_healthy
-#      kc02:
-#        condition: service_healthy
-#    environment:
-#      KAFKA_CLUSTERS_0_NAME: vdt-kafka-cluster
-#      KAFKA_CLUSTERS_0_BOOTSTRAPSERVERS: broker01:9092,broker02:9092
-#      KAFKA_CLUSTERS_0_METRICS_PORT: 9090
-#      KAFKA_CLUSTERS_0_KAFKACONNECT_0_NAME: kc01
-#      KAFKA_CLUSTERS_0_KAFKACONNECT_0_ADDRESS: http://kc01:8083
-#      KAFKA_CLUSTERS_0_KAFKACONNECT_1_NAME: kc02
-#      KAFKA_CLUSTERS_0_KAFKACONNECT_1_ADDRESS: http://kc02:8083
-#    mem_limit: ${MEM_LIMIT}
-#    healthcheck:
-#      test: nc -z kafka-ui 8080 || exit -1
-#      start_period: 15s
-#      interval: 5s
-#      timeout: 10s
-#      retries: 10
-#    networks:
-#      - my_persistent_network
-  zookeeper:
-    hostname: myzookeeper
-    image: confluentinc/cp-zookeeper:${CONFLUENT_VERSION}
-    environment:
-      ZOOKEEPER_CLIENT_PORT: 2181
-      ZOOKEEPER_TICK_TIME: 2000
-      ZOOKEEPER_INIT_LIMIT: 5
-      ZOOKEEPER_SYNC_LIMIT: 2
-    ports:
-      - "2181:2181"
-    container_name: zookeeper
-    healthcheck:
-      test: nc -z zookeeper 2181 || exit -1
-      start_period: 15s
-      interval: 5s
-      timeout: 10s
-      retries: 10
-    networks:
-      - my_persistent_network
+  #  kc01:
+  #    image: confluentinc/cp-kafka-connect:${CONFLUENT_VERSION}
+  #    container_name: kc01
+  #    ports:
+  #      - '8083:8083'
+  #    depends_on:
+  #      broker01:
+  #        condition: service_healthy
+  #      broker02:
+  #        condition: service_healthy
+  #    volumes:
+  #      - ./connectors:/home/appuser/connectors
+  #      - ./libs:/home/appuser/libs
+  #    environment:
+  #      CLASSPATH: /home/appuser/libs/*
+  #      CONNECT_BOOTSTRAP_SERVERS: "broker01:9092,broker02:9092"
+  #      CONNECT_REST_ADVERTISED_HOST_NAME: "kafka-connect01"
+  #      CONNECT_REST_PORT: 8083
+  #      CONNECT_GROUP_ID: kafka-connect-vdt
+  #      CONNECT_CONFIG_STORAGE_TOPIC: _kafka-connect-configs
+  #      CONNECT_OFFSET_STORAGE_TOPIC: _kafka-connect-offsets
+  #      CONNECT_STATUS_STORAGE_TOPIC: _kafka-connect-status
+  #      CONNECT_KEY_CONVERTER: org.apache.kafka.connect.json.JsonConverter
+  #      CONNECT_VALUE_CONVERTER: org.apache.kafka.connect.json.JsonConverter
+  #      CONNECT_INTERNAL_KEY_CONVERTER: "org.apache.kafka.connect.json.JsonConverter"
+  #      CONNECT_INTERNAL_VALUE_CONVERTER: "org.apache.kafka.connect.json.JsonConverter"
+  #      CONNECT_LOG4J_ROOT_LOGLEVEL: "INFO"
+  #      CONNECT_LOG4J_LOGGERS: "org.apache.kafka.connect.runtime.rest=WARN,org.reflections=ERROR"
+  #      CONNECT_LOG4J_APPENDER_STDOUT_LAYOUT_CONVERSIONPATTERN: "[%d] %p %X{connector.context}%m (%c:%L)%n"
+  #      CONNECT_CONFIG_STORAGE_REPLICATION_FACTOR: "1"
+  #      CONNECT_OFFSET_STORAGE_REPLICATION_FACTOR: "1"
+  #      CONNECT_STATUS_STORAGE_REPLICATION_FACTOR: "1"
+  #      CONNECT_PLUGIN_PATH: '/usr/share/java,/usr/share/confluent-hub-components/,/home/appuser/connectors/'
+  #    mem_limit: ${MEM_LIMIT}
+  #    command:
+  #      - bash
+  #      - -c
+  #      - |
+  #        # Run kafka
+  #        echo "Launching Kafka Connect worker"
+  #        /etc/confluent/docker/run &
+  #        #
+  #        sleep infinity
+  #    healthcheck:
+  #      test: nc -z kc01 8083 || exit -1
+  #      start_period: 15s
+  #      interval: 5s
+  #      timeout: 10s
+  #      retries: 10
+  #    networks:
+  #      - my_persistent_network
+  #
+  #  kc02:
+  #    image: confluentinc/cp-kafka-connect:${CONFLUENT_VERSION}
+  #    container_name: kc02
+  #    ports:
+  #      - '8093:8083'
+  #    depends_on:
+  #      broker01:
+  #        condition: service_healthy
+  #      broker02:
+  #        condition: service_healthy
+  #    volumes:
+  #      - ./connectors:/home/appuser/connectors
+  #      - ./libs:/home/appuser/libs
+  #    environment:
+  #      CLASSPATH: /home/appuser/libs/*
+  #      CONNECT_BOOTSTRAP_SERVERS: "broker01:9092,broker02:9092"
+  #      CONNECT_REST_ADVERTISED_HOST_NAME: "kc02"
+  #      CONNECT_REST_PORT: 8083
+  #      CONNECT_GROUP_ID: kafka-connect-vdt
+  #      CONNECT_CONFIG_STORAGE_TOPIC: _kafka-connect-configs
+  #      CONNECT_OFFSET_STORAGE_TOPIC: _kafka-connect-offsets
+  #      CONNECT_STATUS_STORAGE_TOPIC: _kafka-connect-status
+  #      CONNECT_KEY_CONVERTER: org.apache.kafka.connect.json.JsonConverter
+  #      CONNECT_VALUE_CONVERTER: org.apache.kafka.connect.json.JsonConverter
+  #      CONNECT_INTERNAL_KEY_CONVERTER: "org.apache.kafka.connect.json.JsonConverter"
+  #      CONNECT_INTERNAL_VALUE_CONVERTER: "org.apache.kafka.connect.json.JsonConverter"
+  #      CONNECT_LOG4J_ROOT_LOGLEVEL: "INFO"
+  #      CONNECT_LOG4J_LOGGERS: "org.apache.kafka.connect.runtime.rest=WARN,org.reflections=ERROR"
+  #      CONNECT_LOG4J_APPENDER_STDOUT_LAYOUT_CONVERSIONPATTERN: "[%d] %p %X{connector.context}%m (%c:%L)%n"
+  #      CONNECT_CONFIG_STORAGE_REPLICATION_FACTOR: "1"
+  #      CONNECT_OFFSET_STORAGE_REPLICATION_FACTOR: "1"
+  #      CONNECT_STATUS_STORAGE_REPLICATION_FACTOR: "1"
+  #      CONNECT_PLUGIN_PATH: '/usr/share/java,/usr/share/confluent-hub-components/,/home/appuser/connectors/'
+  #    mem_limit: ${MEM_LIMIT}
+  #    command:
+  #      - bash
+  #      - -c
+  #      - |
+  #        # Run kafka
+  #        echo "Launching Kafka Connect worker"
+  #        /etc/confluent/docker/run &
+  #        #
+  #        sleep infinity
+  #    healthcheck:
+  #      test: nc -z kc02 8083 || exit -1
+  #      start_period: 15s
+  #      interval: 5s
+  #      timeout: 10s
+  #      retries: 10
+  #    networks:
+  #      - my_persistent_network
+  #
+  #  kafka-ui:
+  #    container_name: kafka-ui
+  #    image: provectuslabs/kafka-ui:latest
+  #    ports:
+  #      - '8080:8080'
+  #    depends_on:
+  #      broker01:
+  #        condition: service_healthy
+  #      broker02:
+  #        condition: service_healthy
+  #      kc01:
+  #        condition: service_healthy
+  #      kc02:
+  #        condition: service_healthy
+  #    environment:
+  #      KAFKA_CLUSTERS_0_NAME: vdt-kafka-cluster
+  #      KAFKA_CLUSTERS_0_BOOTSTRAPSERVERS: broker01:9092,broker02:9092
+  #      KAFKA_CLUSTERS_0_METRICS_PORT: 9090
+  #      KAFKA_CLUSTERS_0_KAFKACONNECT_0_NAME: kc01
+  #      KAFKA_CLUSTERS_0_KAFKACONNECT_0_ADDRESS: http://kc01:8083
+  #      KAFKA_CLUSTERS_0_KAFKACONNECT_1_NAME: kc02
+  #      KAFKA_CLUSTERS_0_KAFKACONNECT_1_ADDRESS: http://kc02:8083
+  #    mem_limit: ${MEM_LIMIT}
+  #    healthcheck:
+  #      test: nc -z kafka-ui 8080 || exit -1
+  #      start_period: 15s
+  #      interval: 5s
+  #      timeout: 10s
+  #      retries: 10
+  #    networks:
+  #      - my_persistent_network
   registry:
     hostname: myregistry
     container_name: registry_container_persistent
-    image: 'apache/nifi-registry:1.15.0' 
+    image: 'apache/nifi-registry:1.15.0'
     restart: on-failure
     ports:
       - "18080:18080"
