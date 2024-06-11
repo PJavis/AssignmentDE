@@ -1,5 +1,8 @@
 package org.spark;
 
+import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.fs.FileSystem;
+import org.apache.hadoop.fs.Path;
 import org.apache.spark.sql.Dataset;
 import org.apache.spark.sql.Row;
 import org.apache.spark.sql.SparkSession;
@@ -16,7 +19,7 @@ public class ParquetReader {
                 .config("spark.master", "local")
                 .getOrCreate();
 
-        String studentFilePath = "hdfs://namenode:8020/input/.danh_sach_sv_de.csv";
+        String studentFilePath = "hdfs://namenode:8020/input/danh_sach_sv_de.csv";
 
         // Định nghĩa schema cho tệp CSV
         StructType schema = new StructType(new StructField[]{
@@ -38,15 +41,15 @@ public class ParquetReader {
 
         Dataset<Row> aggregatedDF = df.groupBy("student_code", "activity", "timestamp")
                 .agg(sum("numberOfFile").as("totalFile"))
-                .orderBy("timestamp", "student_code", "activity")
-                .select("timestamp", "student_code", "activity", "totalFile");
+                .orderBy("student_code", "activity", "timestamp");
 
-        aggregatedDF.show();
+        Dataset<Row> outputDF = aggregatedDF.join(studentDf,"student_code")
+                .select("timestamp", "student_code", "student_name", "activity", "totalFile");
 
         String outputHdfsPath = "hdfs://namenode:8020/output/aggregated_activities";
-        aggregatedDF.write()
+        outputDF.write()
                 .mode("overwrite")
-                .option("header", "true")
+                .option("header", "false")
                 .csv(outputHdfsPath);
 
         spark.stop();
