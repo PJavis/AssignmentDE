@@ -349,6 +349,45 @@ services:
       - ./nifi/conf:/opt/nifi/nifi-current/conf
     networks:
       - my_persistent_network
+
+  spark-master:
+    image: bitnami/spark:latest
+    container_name: spark-master
+    command: bash -c "bin/spark-class org.apache.spark.deploy.master.Master & sleep 30 && spark-submit --class org.spark.ParquetReader --master local /app/AssignmentDE-1.0-SNAPSHOT.jar"
+    ports:
+      - '9090:8080'
+      - '7077:7077'
+    volumes:
+      - ./target/AssignmentDE-1.0-SNAPSHOT.jar:/app/AssignmentDE-1.0-SNAPSHOT.jar
+    networks:
+      - my_persistent_network
+  spark-worker-1:
+    image: bitnami/spark:latest
+    container_name: spark_worker1
+    command: bin/spark-class org.apache.spark.deploy.worker.Worker spark://spark-master:7077
+    depends_on:
+      - spark-master
+    environment:
+      SPARK_MODE: worker
+      SPARK_WORKER_CORES: 2
+      SPARK_WORKER_MEMORY: 2g
+      SPARK_MASTER_URL: spark://spark-master:7077
+    networks:
+      - my_persistent_network
+  spark-worker-2:
+    image: bitnami/spark:latest
+    container_name: spark_worker2
+    command: bin/spark-class org.apache.spark.deploy.worker.Worker spark://spark-master:7077
+    depends_on:
+      - spark-master
+    environment:
+      SPARK_MODE: worker
+      SPARK_WORKER_CORES: 2
+      SPARK_WORKER_MEMORY: 2g
+      SPARK_MASTER_URL: spark://spark-master:7077
+    networks:
+      - my_persistent_network
+
 volumes:
   hadoop:
 
